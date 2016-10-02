@@ -27,10 +27,8 @@ m = nama method dari controller tersebut.
 Controller defaultnya yaitu app\Controller\HomeController.php
 berisi 1 method index()
 
-<pre>
 <code>
   <?php
-  
     namespace app\Controller;
 
     use system\core\Controller\BaseController as BaseController;
@@ -44,10 +42,7 @@ berisi 1 method index()
       }
 
     }
-    
-  ?>
 </code>
-</pre>
 
 Silahkan run dengan mengetik url http://localhost/namaprojectanda/ di browser anda.
 
