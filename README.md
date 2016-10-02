@@ -6,13 +6,13 @@
 Untuk konfigurasi database buka file
 app/Config/database.ini
 
-<pre>
+```ini
   [MySql]
   host     = _host
   username = _username
   password = _password
   db_name  = _dbname
-</pre>
+```
 
 <b>URL</b>
 
@@ -55,8 +55,7 @@ Aturan penamaan class Controller:
 Bagaimana cara memanggil view di Controller?
 Sangat simple, berikut contoh memanggil view dalam sebuah method
 
-<pre>
-<code>
+```php
   <?php
   
     namespace app\Controller;
@@ -76,16 +75,11 @@ Sangat simple, berikut contoh memanggil view dalam sebuah method
         
         View::load('test', $data);
       }
-
     }
-  ?>
-</code>
-</pre>
+```
 
 Buat file baru di app/View/test.php
 
-<pre>
-<code>
+```php
   <?php print_r($nama); ?>
-</code>
-</pre>
+```
