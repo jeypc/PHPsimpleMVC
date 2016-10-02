@@ -29,7 +29,6 @@ berisi 1 method index()
 
 <code>
   <?php
-
     namespace app\Controller;
 
     use system\core\Controller\BaseController as BaseController;
@@ -59,7 +58,6 @@ Sangat simple, berikut contoh memanggil view dalam sebuah method
 
 <code>
   <?php
-
     namespace app\Controller;
 
     use system\core\Controller\BaseController as BaseController;
@@ -79,7 +77,6 @@ Sangat simple, berikut contoh memanggil view dalam sebuah method
       }
 
     }
-    
   ?>
 </code>
 
