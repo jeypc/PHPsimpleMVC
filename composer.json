@@ -1,0 +1,22 @@
+{
+    "name": "whatever",
+    "authors": [
+        {
+            "name": "Rajaisin",
+            "email": "rajaisin95@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\Controller\\": "app/Controller",
+            "app\\Model\\": "app/Model",
+            "system\\core\\Controller\\": "system/Controller",
+            "system\\core\\Model\\": "system/Model",
+            "system\\core\\View\\": "system/View",
+            "system\\core\\Config\\": "system/Config",
+            "system\\core\\Database\\": "system/Database"
+        },
+        "files": ["app/Helper/helper.php"]
+    }
+}
