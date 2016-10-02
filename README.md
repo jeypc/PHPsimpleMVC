@@ -27,7 +27,7 @@ m = nama method dari controller tersebut.
 Controller defaultnya yaitu app\Controller\HomeController.php
 berisi 1 method index()
 
-<pre>
+<code>
   <?php
 
     namespace app\Controller;
@@ -44,7 +44,7 @@ berisi 1 method index()
 
     }
   ?>
-</pre>
+</code>
 
 Silahkan run dengan mengetik url http://localhost/namaprojectanda/ di browser anda.
 
@@ -57,7 +57,7 @@ Aturan penamaan class Controller:
 Bagaimana cara memanggil view di Controller?
 Sangat simple, berikut contoh memanggil view dalam sebuah method
 
-<pre>
+<code>
   <?php
 
     namespace app\Controller;
@@ -81,10 +81,10 @@ Sangat simple, berikut contoh memanggil view dalam sebuah method
     }
     
   ?>
-</pre>
+</code>
 
 Buat file baru di app/View/test.php
 
-<pre>
+<code>
   <?php print_r($nama); ?>
-</pre>
+</code>
