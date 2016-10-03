@@ -1,5 +1,5 @@
 <b>Simple PHP MVC</b>
-<p>Contoh sederhana PHP Native menggunakan konsep MVC (Model View Controller)</p>
+<p>Contoh sederhana PHP OOP menggunakan konsep MVC (Model View Controller)</p>
 
 <b>Konfigurasi Database</b>
 
