@@ -1,2 +1,2 @@
 PHP MVC
-doc https://ketikkode.wordpress.com/2016/10/08/membuat-mvc-model-view-controller-sederhana-php
+doc http://tentangkode.com/membuat-mvc-model-view-controller-sederhana-php/
